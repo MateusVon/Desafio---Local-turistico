@@ -9,12 +9,13 @@ img {
 
 :root {
   font-family: "Open sans", sans-serif; 
+  background-color: #F5F4F0;
 }
 
 #container {
-  width: ;
-  padding: ;
-  background-color: #F5F4F0;
+  width: 1120px;
+  padding: 40px;
+  margin: 88px auto;
 }
 
 #title-page p {
@@ -23,6 +24,10 @@ img {
 
 #content-list p1 {
   color: #E1624F;
+}
+
+#content-list p2 {
+  color: #0C51A7;
 }
 
 .divider {
