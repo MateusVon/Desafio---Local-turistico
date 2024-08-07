@@ -5,7 +5,6 @@
 
 img {
   border-radius: 24px;
-  width: 100%;
 }
 
 :root {
@@ -13,14 +12,45 @@ img {
   background-color: #F5F4F0;
 }
 
-#title-page p {
-  color: #E1624F;
+h1 {
+  font-size: 36px;
   font-weight: bold;
 }
 
-#description p {
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+li {
+  font-weight: bold; 
+}
+
+#title-page p {
+  color: #E1624F;
+  font-weight: bold;
+  margin: auto auto 8px;
+}
+
+#title-page h1 {
+  margin-bottom: 40px;
+}
+
+#description1 p {
   text-align: center;
   font-style: italic;
+  font-weight: 600;
 }
 
 #container {
@@ -51,19 +81,24 @@ img {
   color: #0C51A7;
 }
 
-#description {
+#card-travel {
+  margin-top: 48px;
+}
+
+#description2 {
   text-align: center;
+  margin: 40px 0;
 }
 
 footer {
   color: #333333;
   text-align: center;
-  margin: 65px auto 48px;
+  margin: 0px auto 48px;
 }
 
 .divider {
   width: 100%;
   height: 1px;
-  margin: 36px 0;
+  margin: 40px 0 65px;
   background-color: #d9d9d9;
 }
